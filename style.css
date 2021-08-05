@@ -20,8 +20,10 @@ body{
 
 
 .topnav {
+  display: flex;
   overflow: hidden;
   background-color: var(--light-grayish-blue);
+  justify-content: space-around;
 }
 
 .topnav a {
