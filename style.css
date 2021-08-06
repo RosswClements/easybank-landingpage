@@ -34,16 +34,15 @@ body{
 .topnav a {
   float: left;
   display: block;
-  /* color: var(--dark-blue); */
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: var(--grayish-blue);
-  color: var(--light-grayish-blue);
+  background-color: var(--light-grayish-blue);
+  color: var(--grayish-blue);
 }
 
 .topnav a.active {
@@ -67,15 +66,18 @@ body{
   padding: 16px 32px;
 }
 
+/* Welcome Section */
+
 
 /* Mobile */
 @media screen and (max-width: 800px) {
   /* Navbar */
   .topnav a:not(:first-child) {
     display: none;
+    text-align: center;
   }
   .topnav a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 
@@ -94,7 +96,6 @@ body{
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left;
   }
 
   #btn1{
