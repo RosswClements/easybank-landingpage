@@ -55,7 +55,7 @@ body{
 }
 
 .btn{
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--white) !important;
   font-weight: 700;
   text-decoration: none;
@@ -63,7 +63,7 @@ body{
   border-radius: 5rem;
   max-height: 20px;
   max-width: 200px;
-  padding: 16px 32px;
+  padding: 14px 16px;
 }
 
 /* Welcome Section */
