@@ -71,37 +71,63 @@ body{
 
 .container {
   margin: 1em;
+  position: static;
 }
 
 /* Mobile */
 @media screen and (max-width: 800px) {
+
   /* Navbar */
+  
   .topnav a:not(:first-child) {
     display: none;
     text-align: center;
   }
+  
   .topnav a.icon {
     float: left;
     display: block;
   }
 
+  .topnav a.logo {
+    float: right;
+    display: block;
+  }
+
   .topnav {
     justify-content: space-between;
-    z-index: 9;
     width: 100%;
+    background-color: transparent;
   }
   .topnav.responsive {
     position: absolute;
     flex-direction: column;
+    padding-bottom: 1em;
+    z-index: 9;
   }
   .topnav.responsive .icon {
     position: fixed;
     right: 0;
     top: 0;
   }
+
+  .topnav.responsive .logo {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
   .topnav.responsive a {
     float: none;
     display: block;
+    background-color: var(--very-light-gray);
+    z-index: 9;
+  }
+
+  .topnav.responsive .transparent {
+    position: relative;
+    background-color: transparent;
+    border: 1em transparent solid;
   }
 
   #btn1{
@@ -111,6 +137,6 @@ body{
   /* Welcome Section */
 
   #container1{
-    position: absolute;
+    /* position: absolute; */
   }
 }

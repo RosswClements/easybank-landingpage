@@ -19,20 +19,25 @@
   </style>
 </head>
 <header>
-  <div class="wrapper"></div>
+  <div class="wrapper">
   <div class="topnav" id="myTopnav">
-    <a href="index.html"><img src="/images/logo.svg" alt="logo"></img></a>
+    <a href="index.html" class="logo"><img src="/images/logo.svg" alt="logo"></img></a>
       
-        <div>
+    <div class="transparent">
+      <div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <img src="/images/icon-hamburger.svg"></img></a>
+            
       <a href="#">Home</a>
       <a href="#">About</a>
       <a href="#">Contact</a>
       <a href="#">Blog</a>
       <a href="#">Careers</a>
-      </div>
+    </div>
+    </div>
+    
       <a href="#" class="btn" id="btn1">Request Invite</a>
+
       
       
   </div>
@@ -49,6 +54,7 @@
 
 </div>
 
+<div class="container" id="container2">
   Why choose Easybank?
 
   We leverage Open Banking to turn your bank account into your financial hub. Control 
@@ -70,8 +76,8 @@
   Manage your savings, investments, pension, and much more from one account. Tracking 
   your money has never been easier.
 
-  
-
+</div>
+<div class="container" id="container3">
   Latest Articles
 
   By Claire Robinson
@@ -93,8 +99,8 @@
   Our invite-only Beta accounts are now live!
   After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
   It’s easy to request an invite through the site ...
-
-  
+</div>
+  <div class="container" id="container4">
 
   About Us
   Contact
@@ -111,7 +117,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://rosswclements.github.io/portfolio/">Ross Clements</a>.
   </div>
-  </div>
+</div>
+</div>
   <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
