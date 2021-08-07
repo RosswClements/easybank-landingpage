@@ -13,6 +13,7 @@
 html{
   background-color: var(--very-light-gray);
   color: var(--dark-blue);
+  margin: 0;
 }
 
 body{
@@ -70,8 +71,8 @@ body{
 /* Welcome Section */
 
 .container {
-  margin: 1em;
-  position: static;
+  display: flex;
+  position: sticky;
 }
 
 /* Mobile */
@@ -87,6 +88,7 @@ body{
   .topnav a.icon {
     float: left;
     display: block;
+    background-color: var(--very-light-gray);
   }
 
   .topnav a.logo {
@@ -97,13 +99,17 @@ body{
   .topnav {
     justify-content: space-between;
     width: 100%;
-    background-color: transparent;
+    background-color: var(--very-light-gray);
+    position: absolute;
+    z-index: 9;
   }
   .topnav.responsive {
+    justify-content: space-between;
     position: absolute;
     flex-direction: column;
-    padding-bottom: 1em;
-    z-index: 9;
+    z-index: 7;
+    background-color: transparent;
+    
   }
   .topnav.responsive .icon {
     position: fixed;
@@ -112,16 +118,18 @@ body{
   }
 
   .topnav.responsive .logo {
-    position: fixed;
+    position: relative;
+    width: 100%;
     left: 0;
     top: 0;
+    z-index: 8;
   }
 
   .topnav.responsive a {
     float: none;
     display: block;
     background-color: var(--very-light-gray);
-    z-index: 9;
+    z-index: 8;
   }
 
   .topnav.responsive .transparent {
@@ -136,7 +144,16 @@ body{
 
   /* Welcome Section */
 
-  #container1{
-    /* position: absolute; */
+  .container{
+    flex-direction: column;
+    /* background-color: black; */
+    margin-left: 0.5em;
+    margin-right: 0.5em;
   }
+
+    #container1{
+      padding-top: 5em;
+    }
+  
+
 }
