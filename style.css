@@ -12,14 +12,13 @@
 
 html{
   background-color: var(--very-light-gray);
-  color: var(--dark-blue);
-  margin: 0;
 }
 
 body{
   font-family: 'Public Sans', sans-serif;
   color: var(--dark-blue);
   margin: 0;
+  text-decoration: none;
 }
 
 
@@ -102,6 +101,7 @@ body{
     background-color: var(--very-light-gray);
     position: absolute;
     z-index: 9;
+    
   }
   .topnav.responsive {
     justify-content: space-between;
@@ -109,6 +109,8 @@ body{
     flex-direction: column;
     z-index: 7;
     background-color: transparent;
+    background-image: linear-gradient(var(--dark-blue), transparent);
+    
     
   }
   .topnav.responsive .icon {
@@ -130,12 +132,14 @@ body{
     display: block;
     background-color: var(--very-light-gray);
     z-index: 8;
+    color: var(--dark-blue)
   }
 
   .topnav.responsive .transparent {
     position: relative;
     background-color: transparent;
     border: 1em transparent solid;
+    margin-bottom: 15em;
   }
 
   #btn1{
