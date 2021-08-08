@@ -41,7 +41,6 @@ h4 {
 p {
   font-size: 0.85em;
   color: var(--grayish-blue);
-  /* margin: 1em; */
   line-height: 1.5em;
 }
 
@@ -220,6 +219,11 @@ a:hover {
 
 #container5 h4 {
   color: var(--white);
+}
+
+
+#container5 a h4:hover{
+  color: var(--lime-green);
 }
 
 .footer-logos-wrapper {
