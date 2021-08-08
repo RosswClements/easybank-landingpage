@@ -25,9 +25,16 @@ h1 {
   font-weight: 300;
 }
 
+h2 {
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
 p {
-  font-size: 0.9em;
+  font-size: 0.85em;
   color: var(--grayish-blue);
+  margin: 1em;
+  line-height: 1.5em;
 }
 
 /* Navbar */
@@ -191,13 +198,30 @@ p {
   }
 
   .flex-item2 {
-    margin-left: 1em;
-    margin-right: 1em;
+    /* margin-left: 1em; */
+    /* margin-right: 1em; */
+    margin: 1em;
   }
 
   .flex-item2 h1 {
     margin-left: 1em;
     margin-right: 1em;
+  }
+
+  .flex-item3 {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .flex-item3 h2 {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .flex-item3 img {
+    margin: 1em;
+    /* height: 50%; */
+    /* width: 50%; */
   }
 
 }
