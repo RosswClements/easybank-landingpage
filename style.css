@@ -345,6 +345,24 @@ margin: 2em;
     flex-direction: column;
   }
 
+  #title {
+  margin-top: 0;
+  margin-left: 0;
+  text-align: center;
+}
+
+#title h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+#title p {
+  font-size: 0.9em;
+  color: var(--grayish-blue);
+  margin-left: 1em;
+  text-align: center;
+}
+
   .flex-item1 {
     background-image: url(./images/bg-intro-mobile.svg);
     background-position: 0 15px;
@@ -363,8 +381,21 @@ margin: 2em;
 
   /* Icon Section */
 
-  .flex-item2 {
-    margin: 1em;
+
+  #container2 {
+    margin-top: 2em;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  
+  #container2 h1{
+    font-size: 2em;
+  }
+  
+  #container2 p{
+    font-size: 0.9em;
+    margin-right: 0;
   }
 
   .flex-item2 h1 {
@@ -375,6 +406,7 @@ margin: 2em;
   .flex-item3 {
     margin-left: 1em;
     margin-right: 1em;
+    text-align: center;
   }
 
   .flex-item3 p {
@@ -426,5 +458,22 @@ margin: 2em;
   #container5 {
     background-color: var(--dark-blue);
     flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0;
+  }
+
+  .footer-logos-wrapper{
+    margin: 1em;
+  }
+  .flex-item5{
+    margin: -0.6em;
+  }
+
+  #footer-btn{
+    text-align: center;
+  }
+  .attribution{
+    margin: 2em;
   }
 }
