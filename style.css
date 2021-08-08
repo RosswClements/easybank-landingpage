@@ -277,9 +277,10 @@ margin: 2em;
   }
 
   .topnav a.icon {
-    float: left;
     display: block;
     background-color: var(--very-light-gray);
+    right: 10px;
+    top: 2px;
   }
 
   .topnav a.logo {
@@ -304,8 +305,8 @@ margin: 2em;
   }
   .topnav.responsive .icon {
     position: fixed;
-    right: 0;
-    top: 0;
+    right: 10px;
+    top: 2px;
   }
 
   .topnav.responsive .logo {
